@@ -1,0 +1,145 @@
+.container {
+  box-shadow: -2px 0 10px 0 #808080;
+}
+.section {
+  display: flex;
+}
+.section__block {
+  width: 50%;
+}
+.initial-info {
+  padding: 25px 50px;
+}
+.fullname {
+  font-family: 'Playfair Display SC', serif;
+  font-size: 45px;
+  line-height: 1;
+}
+.fullname::after {
+  display: block;
+  background-color: #434440;
+  content: '';
+  width: 100px;
+  height: 2px;
+  margin: 17px 0;
+}
+.job-title {
+  text-transform: uppercase;
+  color: #3ea8dd;
+  font-weight: 700;
+  letter-spacing: 5px;
+}
+.personal-profile {
+  padding: 25px 50px;
+}
+
+.title {
+  font-family: 'Playfair Display SC', serif;
+  font-size: 15px;
+  line-height: 1;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-bottom: 16px;
+}
+.title::after {
+  display: block;
+  background-color: #434440;
+  content: '';
+  width: 40px;
+  height: 2px;
+  margin-top: 10px;
+}
+.personal-profile__title::after {
+  display: none;
+}
+.pic__block {
+  height: 460px;
+  background-color: #eef7fe;
+}
+.pic {
+  background-image: url(images/pic.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+}
+.desc__item {
+  padding-bottom: 13px;
+}
+.edu {
+  font-weight: 600;
+}
+.degree {
+  font-style: italic;
+}
+.list__item {
+  padding: 25px 50px 15px 50px;
+}
+.skills {
+  padding: 17px 50px 25px 50px;
+}
+.skills-list__item {
+  padding-bottom: 10px;
+}
+.skill {
+  line-height: 2;
+}
+
+.skill__title {
+  margin-bottom: 6px;
+}
+
+.skill__progress {
+  width: 200px;
+  height: 10px;
+  background-color: #d8ecfd;
+}
+
+.skill__progress-filled {
+  height: 10px;
+  background-color: #3ea8dd;
+}
+
+.section__block_blue {
+  background-color: #eef7fe;
+  padding-bottom: 170px;
+}
+.languages {
+  padding: 25px 50px 25px 50px;
+}
+.english {
+  padding-bottom: 10px;
+  font-weight: 600;
+}
+a:hover {
+  text-decoration: underline;
+}
+.section__contacts {
+  position: relative;
+}
+.contacts {
+  width: 85%;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.contacts__list {
+  display: flex;
+  position: relative;
+  padding: 40px 20px;
+  background-color: #fff;
+  border: solid 5px #eef7fe;
+  width: 100%;
+  justify-content: space-between;
+}
+.contacts__item {
+  font-size: 14px;
+  vertical-align: middle;
+}
+.icon {
+  width: 18px;
+  height: 13px;
+  padding-right: 5px;
+  vertical-align: middle;
+}
