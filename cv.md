@@ -1,4 +1,4 @@
-1. ### Maria Shevchuk
+1. ## Maria Shevchuk
 2. **Email:** mg.bizarre@gmail.com
 
    **Tel.:** +375(29)505-29-65
@@ -15,3 +15,9 @@
    - Git
    - Gulp
    - Adaptive/Responsive markup
+5. **https://github.com/mg-bizarre?tab=overview**
+6. **Experience:**
+
+- LoftSchool "Front-end basics" course (HTML, CSS)
+- "Portfolio" project (Pug, Sass, JS, Gulp, Git, Stylelint, ESlint, Prettier, EditorConfig, Yarn, Swiper plugin, Font Awesome)
+- 1 out of 3 parts on learn.javascript.ru
