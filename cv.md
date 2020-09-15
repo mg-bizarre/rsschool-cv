@@ -21,3 +21,12 @@
 - LoftSchool "Front-end basics" course (HTML, CSS)
 - "Portfolio" project (Pug, Sass, JS, Gulp, Git, Stylelint, ESlint, Prettier, EditorConfig, Yarn, Swiper plugin, Font Awesome)
 - 1 out of 3 parts on learn.javascript.ru
+
+7. **2015-2018** Minsk State College of Linguistics and Humanities _(Honors degree)_
+8. **Advanced English level (C1)**
+
+   - Taking to native speakers
+   - Watching any kind of TV shows/ movies without subtitles
+   - Reading books in English
+
+   *https://www.efset.org/cert/dVt2Dn*
