@@ -28,6 +28,7 @@
   color: #3ea8dd;
   font-weight: 700;
   letter-spacing: 5px;
+  font-size: 16px;
 }
 .personal-profile {
   padding: 25px 50px;
@@ -116,7 +117,7 @@ a:hover {
 .section__contacts {
   position: relative;
 }
-.contacts {
+.contacts__block {
   width: 85%;
   margin: 0 auto;
   position: absolute;
@@ -124,14 +125,25 @@ a:hover {
   left: 50%;
   transform: translateX(-50%);
 }
-.contacts__list {
-  display: flex;
+.contacts__title {
+  text-transform: uppercase;
+  color: #3ea8dd;
+  font-weight: 700;
+  letter-spacing: 4px;
+  font-size: 16px;
+  line-height: 1;
+  padding-bottom: 15px;
+}
+.contacts {
   position: relative;
-  padding: 40px 20px;
+  padding: 17px 20px 30px 20px;
   background-color: #fff;
   border: solid 5px #eef7fe;
   width: 100%;
+}
+.contacts__list {
   justify-content: space-between;
+  display: flex;
 }
 .contacts__item {
   font-size: 14px;
