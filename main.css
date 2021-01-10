@@ -7,8 +7,11 @@
 .section__block {
   width: 50%;
 }
-.initial-info {
+.section__block-wrapper {
   padding: 25px 50px;
+}
+.initial-info {
+  padding-bottom: 50px;
 }
 .fullname {
   font-family: 'Playfair Display SC', serif;
@@ -29,9 +32,6 @@
   font-weight: 700;
   letter-spacing: 5px;
   font-size: 16px;
-}
-.personal-profile {
-  padding: 25px 50px;
 }
 
 .title {
@@ -61,22 +61,26 @@
   background-image: url(images/pic.jpg);
   background-size: cover;
   width: 100%;
-  height: 450px;
+  height: 98%;
 }
-.desc__item {
+.work__item {
   padding-bottom: 13px;
 }
 .edu {
   font-weight: 600;
 }
+.education__item {
+  padding-bottom: 7px;
+  line-height: 1;
+}
 .degree {
   font-style: italic;
 }
-.list__item {
-  padding: 25px 50px 15px 50px;
+.left__item {
+  padding-bottom: 40px;
 }
-.skills {
-  padding: 17px 50px 25px 50px;
+.right__item {
+  padding-bottom: 50px;
 }
 .skills-list__item {
   padding-bottom: 10px;
@@ -86,11 +90,11 @@
 }
 
 .skill__title {
-  margin-bottom: 6px;
+  padding-bottom: 6px;
 }
 
 .skill__progress {
-  width: 200px;
+  width: 90%;
   height: 10px;
   background-color: #d8ecfd;
 }
@@ -102,13 +106,14 @@
 
 .section__block_blue {
   background-color: #eef7fe;
-  padding-bottom: 170px;
+  padding-bottom: 120px;
 }
-.languages {
-  padding: 25px 50px 25px 50px;
+.lang__item {
+  padding-bottom: 7px;
+  line-height: 1;
 }
 .english {
-  padding-bottom: 10px;
+  padding-bottom: 7px;
   font-weight: 600;
 }
 a:hover {
@@ -125,6 +130,7 @@ a:hover {
   left: 50%;
   transform: translateX(-50%);
 }
+
 .contacts__title {
   text-transform: uppercase;
   color: #3ea8dd;
@@ -148,6 +154,9 @@ a:hover {
 .contacts__item {
   font-size: 14px;
   vertical-align: middle;
+}
+.contacts__link {
+  color: #434440;
 }
 .icon {
   width: 18px;
